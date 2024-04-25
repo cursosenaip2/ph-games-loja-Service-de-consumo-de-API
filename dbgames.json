@@ -1,0 +1,25 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "produto": "A Saga dos Reinos Perdidos",
+      "descricao": "Embarque em uma jornada épica por terras desconhecidas e descubra os segredos dos antigos Reinos Perdidos.",
+      "foto": "jogo01.jpg",
+      "preco": 350
+    },
+    {
+      "id": "2",
+      "produto": "Velocidade Extrema: Rali Mundial",
+      "descricao": "Sinta a adrenalina pulsar em suas veias com \"Velocidade Extrema: Rali Mundial",
+      "foto": "jogo02.jpg",
+      "preco": 450
+    },
+    {
+      "id": "3",
+      "produto": "Invasão Z: Sobrevivência Urbana",
+      "descricao": "Apocalipse zumbi em \"Invasão Z: Sobrevivência Urbana\", um jogo de ação e sobrevivência que coloca você no centro dos mortos-vivos.",
+      "foto": "jogo03.jpg",
+      "preco": 550
+    }
+  ]
+}

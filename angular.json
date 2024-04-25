@@ -1,0 +1,151 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+<<<<<<< HEAD
+    "loja-games": {
+      "projectType": "application",
+      "schematics": {},
+=======
+    "loja-ph-gamer": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "standalone": false
+        },
+        "@schematics/angular:directive": {
+          "standalone": false
+        },
+        "@schematics/angular:pipe": {
+          "standalone": false
+        }
+      },
+>>>>>>> 97a75e068f55c6c8dad270f3cefac5b8798308e8
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+<<<<<<< HEAD
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/loja-games",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+=======
+          "builder": "@angular-devkit/build-angular:application",
+          "options": {
+            "outputPath": "dist/loja-ph-gamer",
+            "index": "src/index.html",
+            "browser": "src/main.ts",
+>>>>>>> 97a75e068f55c6c8dad270f3cefac5b8798308e8
+            "polyfills": [
+              "zone.js"
+            ],
+            "tsConfig": "tsconfig.app.json",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.css"
+            ],
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+<<<<<<< HEAD
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+=======
+              "optimization": false,
+              "extractLicenses": false,
+              "sourceMap": true
+>>>>>>> 97a75e068f55c6c8dad270f3cefac5b8798308e8
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+<<<<<<< HEAD
+              "browserTarget": "loja-games:build:production"
+            },
+            "development": {
+              "browserTarget": "loja-games:build:development"
+=======
+              "buildTarget": "loja-ph-gamer:build:production"
+            },
+            "development": {
+              "buildTarget": "loja-ph-gamer:build:development"
+>>>>>>> 97a75e068f55c6c8dad270f3cefac5b8798308e8
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+<<<<<<< HEAD
+            "browserTarget": "loja-games:build"
+=======
+            "buildTarget": "loja-ph-gamer:build"
+>>>>>>> 97a75e068f55c6c8dad270f3cefac5b8798308e8
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ],
+            "tsConfig": "tsconfig.spec.json",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.css"
+            ],
+            "scripts": []
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+<<<<<<< HEAD
+    "analytics": "ed3fe03b-3a43-4d07-a226-f0956fa7f018"
+=======
+    "analytics": "90a1c87a-3112-44fc-9412-459a181670cb"
+>>>>>>> 97a75e068f55c6c8dad270f3cefac5b8798308e8
+  }
+}

@@ -1,0 +1,32 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+<<<<<<< HEAD
+
+span{
+    padding: 10px;
+}
+
+  img{
+    height: 50px;
+    width: 50px;  
+  }
+
+=======
+  span{
+    padding: 10px;
+  }
+  img{
+    height: 70px;
+    width: 70px;
+  }
+
+  button mat-icon-button .example-icon{
+    height: 450px;
+    width: 100px;
+  }
+>>>>>>> 97a75e068f55c6c8dad270f3cefac5b8798308e8
+  a{
+    text-decoration: none;
+    color: white;
+  }
